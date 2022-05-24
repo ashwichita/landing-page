@@ -1,0 +1,18 @@
+.option1-section{
+    background: var(--sec-outline-color);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.option1-container{
+    width: 60vw;
+    min-width: 350px;
+    color: var(--main-outline-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 100px;
+
+}

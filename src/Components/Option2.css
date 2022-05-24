@@ -1,0 +1,55 @@
+.option2-section {
+  margin: 0;
+  padding: 0;
+  height: 80vh;
+  background-image: url(./media/texture2.png);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.option2-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5vw;
+  justify-content: center;
+  align-content: center;
+}
+
+.option2-item {
+  width: 200px;
+  height: 200px;
+  background-color: var(--main-bg-color);
+  box-shadow: 5px 5px var(--sec-outline-color);
+  border-radius: 20px;
+  transition: 0.1s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.option2-item:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px;
+  background-color: var(--main-outline-color);
+}
+
+@media only screen and (max-device-width: 480px) {
+  .option2-section {
+    padding: 10vh;
+  }
+
+  .option2-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .option2-item {
+    width: 150px;
+    height: 150px;
+  }
+}

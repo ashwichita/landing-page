@@ -1,0 +1,12 @@
+.footer{
+    height: 6vh;
+    background: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+}
+
+.footer h3{
+    padding: 10px;
+    color: var(--sec-outline-color);
+}
+
